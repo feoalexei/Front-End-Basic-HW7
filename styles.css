@@ -24,6 +24,10 @@
     word-spacing: 80px;
 }
 
+.clearfix {
+    clear: both;
+}
+
 .list {
     margin-left: 100px;
     padding: 0;
@@ -52,8 +56,7 @@
     font-weight: 400;
     margin-top: 99px;
     margin-left: 149px;
-    width: 397px;
-  }
+}
 
 .link_special {
     color: #b4ad9e;
@@ -64,8 +67,7 @@
 }
 
 .title {
-    width: 500px;
-    font-size: 30px;
+   font-size: 30px;
 }
 
 .text {
@@ -108,7 +110,6 @@
     height: 97px;
     background-color: #f0f0f0;
     padding-top: 40px; 
-    /* position: absolute; */
 }
 
 .container {
@@ -116,11 +117,12 @@
     margin: 0 auto;   
 }
 
-.footer_nav {
+.footer_nav_menu {
     font-family: 'Playfair Display', serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 24px; 
+    float: left;
 }
 
 .terms_link {
@@ -145,6 +147,16 @@
     color: #000000;
 }
 
+.footer_nav_media {
+    float: right;
+    margin-top: 3px;
+    margin-right: 50px; 
+}
+
+.clearfix {
+    clear: both;
+}
+
 .img_link {
-    margin: 15px;
+    margin: 10px;
 }
